@@ -1,0 +1,125 @@
+.title{
+    font-weight: bold;
+    font-size: 80px;
+    color: #f5f456;
+    text-align: center;
+}
+
+#buttons{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+.button{
+    font-weight: bold;
+    background-color: #39bac6;
+    border-radius: 8px;
+    border: none;
+    color: #c639c4;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.button:hover, #submit:hover {
+    background-color: #2b54ea;
+    color: white;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.home{
+    background-image: url("../pics/background.png");
+}
+#gamepage{
+    background-image: url("../pics/background2.png");
+}
+
+#gamearea{
+    display: flex;
+}
+
+.grid{
+    height: 560px;
+    width: 560px;
+    background-color: #992c97;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0.8;
+    z-index: 1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.grid div{
+    height: 70px;
+    width: 70px;
+}
+.jewel{
+    height: 70px;
+    width: 70px;
+    opacity: 1;
+}
+h1, label{
+    font-weight: bold;
+    font-size: 50px;
+    color: #f5f456;
+}
+#panel{
+    background-color: #992c97;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-right: 50px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+#submit{
+    font-weight: bold;
+    background-color: #39bac6;
+    border-radius: 8px;
+    border: none;
+    color: #c639c4;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+table {
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+    color: #c639c4;
+    background-color: #39bac6;
+}
+th {
+    font-weight: bold;
+}
